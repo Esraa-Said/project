@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+ 
+  <script src="filejs.js"></script>
+  <style>
+    *{
+	box-sizing:border-box;
+	
+}
+.out{
+  display: block;width: 600px;
+  
+}
+    .form {
+      background-color: rgb(22, 21, 21);
+
+      box-shadow: 4px 4px 4px 4px rgb(255, 251, 251);  
+      text-align:center;
+      font-weight: 500;
+font-size: large;
+margin-top: 50px;
+margin-bottom: 60px;
+border: 3px solid white;
+
+
+    }
+ form{
+  background-color: rgb(22, 21, 21);
+
+   color: white;
+ }
+
+input{
+  font-size: large; width: 70%;
+}
+select{
+  width: 70%;font-size: large;
+}
+textarea{
+  font-size: large; width: 70%;
+}
+
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page1.html">Reviews</a></li>
+
+        <li><a href="page2.html">Brands</a></li>
+        
+        <li><a href="page3.html">Gallery +</a>
+        <ul>
+            <li><a href="page3.html#hyundai">hyundai</a></li>
+            <li><a href="page3.html#ferrari">ferrari</a></li>
+            <li><a href="page3.html#golf">golf</a></li>
+            <li><a href="page3.html#BMW">BMW</a></li>
+            <li><a href="page3.html#Jeep">Jeep</a></li>
+        </ul></li>
+        <li>
+            <a href="page4.html">Register</a>
+        </li>
+    </ul>
+</nav>
+  <center>
+    <div class="out">
+  <div class="form">
+
+    <form method="POST" action="index.html" onsubmit="return checkForm();">
+      <fieldset>
+        <div class="div1">
+        <legend style="text-align: left;">Registereration </legend><br>
+        <label>First Name</label> <br><br>
+        <input type="text" name="name" class="textInput" id="fname" placeholder="first name..." required><br><br>
+      </div>
+      <div class="div1">
+        <label>Last Name</label> <br><br>
+        <input type="text" name="name" class="textInput"  id="lname" placeholder="last name..." required><br><br>
+      </div>
+      <div class="div1">
+        <label>Email</label> <br><br>
+        <input type="email" name="email" class="textInput" id="mail" placeholder="email..." required validate><br><br>
+      </div>
+      <div class="div1">
+        <label>Phone Number</label><br><br>
+        <input type="tel" name="phone" class="textInput" id="phone" placeholder="phone..." required><br><br>
+      </div>
+      <div class="div1">
+        <label>Address</label><br><br>
+        <textarea name="add" id="add" cols="30" rows="10" class="box address" placeholder="address..." required></textarea><br><br>
+      </div>
+        <div class="div1">
+        <label>Password</label><br><br>
+        <input type="password" name="password" class="textInput"  id="pass" placeholder="password..." required><br><br>
+        </div>
+        <div class="div1">
+        <label>Password confirm</label> <br><br>
+        <input type="password" name="password_confirm" id="confpass"  class="textInput"placeholder="password_confirm..."  required><br><br>
+        </div>
+        <div class="div1">
+        <label>Gender</label><br><br>
+        <select id="gender">
+          <option value="male">male</option>
+          <option value="female">female</option>
+        </select>
+        <br><br><br>
+        </div>
+        <div class="sub">
+    <input type="submit" name="submit" value="Submit" class="button">
+        </div>
+ 
+  </fieldset>
+  </form> </div></div>
+</center>
+</body>
+
+</html>

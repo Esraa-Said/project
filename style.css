@@ -1,0 +1,95 @@
+<style>
+* {
+box-sizing: border-box;
+}
+body{
+    background-image: url(bb.jpeg);
+    background-repeat:no-repeat ;
+ background-size: cover;
+ background-attachment: fixed;
+
+
+
+}
+
+nav{
+   background-color: #090a0a;
+ 
+}
+nav ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   position: relative;
+   display: flex;
+   justify-content: space-around; 
+}
+nav ul li{
+   display: inline-block;
+   background-color: #0b0c0c;
+}
+nav a{
+   display: block;
+   padding: 0 10px;
+   color: #fff;
+   line-height: 60px;
+   font-size: 20px;
+   text-decoration: none;
+   text-align: center;
+}
+
+nav ul ul {
+   display: none;
+   position: absolute;
+   top: 60px;
+}
+
+nav a:hover{
+   background-color: #e05c5c;
+}
+
+nav ul li:hover > ul {
+   display: inherit;
+}
+
+nav ul ul li{
+   width: 170px;
+   float: none;
+   display: block;
+   position: relative;
+
+}
+a:hover{
+   color: rgb(255, 255, 255);
+}
+
+nav ul ul ul li {
+   position: relative;
+   top: -60px;
+   left: 170px;
+}
+
+
+
+@media screen and (max-width:800px) {
+   nav ul{
+       display: flex;
+   flex-direction: column;
+   text-align: center;
+   padding: 0px;
+
+    }
+    nav ul ul {
+     
+      top: 0px;
+   } 
+    body{
+        background-image: url(bb.jpeg);
+        background-repeat:no-repeat ;
+     background-size: cover;
+    
+    
+    }
+  
+}
+</style>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .op {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+           
+        }
+
+        .gallery img {
+            width: 400px;
+            height: 300px;
+
+            box-shadow: 10px 10px 10px 10px black;
+        }
+        .op img{
+            margin: 10px;
+        }
+        .op1{
+           padding: 10px;
+           border: 5px solid black;
+           background-color: rgb(255, 255, 255);
+        }
+        img:hover {
+            border: 5px solid rgb(219, 92, 92);
+        }
+
+        .gallery div {
+
+            margin: auto;
+        
+        }
+
+        .text {
+           font-size: x-large;
+          color: black;
+          padding-top: 20px;
+        text-align: center;
+          font-weight: 400;
+        }
+span{
+    padding-left: 80px;
+          padding-right: 80px;
+}
+      span a{
+          border: 3px solid rgb(202, 83, 83);
+          background-color: brown;
+          color: rgb(255, 255, 255);
+         text-align: center;  padding-left: 80px;
+         font-size: large;
+          padding-right: 80px;
+        
+      } 
+.op1:hover{
+    background-color: aliceblue;
+}
+        
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        @media screen and (max-width:600px) {
+            .gallery {
+               
+                flex-direction: column;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page1.html">Reviews</a></li>
+    
+            <li><a href="page2.html">Brands</a></li>
+            
+            <li><a href="page3.html">Gallery +</a>
+            <ul>
+                <li><a href="page3.html#hyundai">hyundai</a></li>
+                <li><a href="page3.html#ferrari">ferrari</a></li>
+                <li><a href="page3.html#golf">golf</a></li>
+                <li><a href="page3.html#BMW">BMW</a></li>
+                <li><a href="page3.html#Jeep">Jeep</a></li>
+            </ul></li>
+            <li>
+                <a href="page4.html">Register</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>
+        Gallery
+    </h1><br><br><br><br><br><br>
+    <div class="gallery">
+        <div id="hyundai">
+            <div class="op">
+                <div class="op1">
+                <a href="g1.jpg">
+                    <img src="g1.jpg">
+                </a>
+                <div class="text">
+                    Brand:hyundai <br>Model:2020 lorem ipsum dolor sit<br>price:500.000$<br><br>
+                </div>
+              <span> <a href="page4.html">BUY NOW</a></span> 
+            
+            </div>
+            <div class="op1">
+                <a href="g15.jpg">
+                    <img src="g15.jpg">
+                </a>
+                <div class="text">Brand:hyundai<br>Model:2021 lorem ipsum dolor sit<br>price:700.000$<br><br>
+                    <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+
+            </div>
+            <div class="op1">
+                <a href="g2.jpg">
+                    <img src="g2.jpg">
+                </a>
+                <div class="text">
+                    Brand:hyundai<br>Model:2019 lorem ipsum dolor sit<br>price:400.000$<br><br>
+                    <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+            </div>
+        </div></div>
+        <div id="ferrari">
+            <div class="op">
+                <div class="op1">
+               
+                <a href="g3.jpg">
+                    <img src="g3.jpg">
+                </a>
+                <div class="text">
+                  Brand:ferrari<br>Model:2021 lorem ipsum dolor sit<br>price:800.000$<br><br>
+                  <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+           
+                
+            </div>
+            <div class="op1">
+                <a href="g4.jpg">
+                    <img src="g4.jpg">
+                </a>
+                <div class="text">
+                    Brand:ferrari<br>Model:2020 lorem ipsum dolor sit<br>price:700.000$<br><br>
+                    <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+            </div>
+            <div class="op1">
+                <a href="g5.jpg">
+                    <img src="g5.jpg">
+                </a>
+                <div class="text">
+                    Brand:ferrari<br>Model:2021 lorem ipsum dolor sit<br>price:900.000$<br><br>
+                    <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="golf">
+            <div class="op">
+                <div class="op1">
+                <a href="g6.jpg">
+                    <img src="g6.jpg">
+                </a>
+                <div class="text">
+                    Brand:golf<br>Model:2021 lorem ipsum dolor sit<br>price:1000.000$<br><br>
+                    <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+            </div>
+            <div class="op1">
+                <a href="g16.jpg">
+                    <img src="g16.jpg">
+                </a>
+                <div class="text">
+                    Brand:golf<br>Model:2021 lorem ipsum dolor sit<br>price:1000.000$ <br><br>
+                    <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+            </div>
+            <div class="op1">
+                <a href="g17.png">
+                    <img src="g17.png">
+                </a>
+                <div class="text">
+                    Brand:golf<br>Model:2021 lorem ipsum dolor sit<br>price:1000.000$<br><br>
+                    <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+            </div></div>
+        </div>
+        <div id="BMW">
+            <div class="op">
+                <div class="op1">
+                <a href="g8.jpg">
+                    <img src="g8.jpg">
+                </a>
+                <div class="text">
+                    Brand:BMW<br>Model:2021 lorem ipsum dolor sit<br>price:2500.000$<br><br>
+                    <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+            </div>
+            <div class="op1">
+                <a href="g9.jpg">
+                    <img src="g9.jpg">
+                </a>
+                <div class="text">
+                    Brand:BMW<br>Model:2021 lorem ipsum dolor sit<br>price:3000.000$<br><br>
+                    <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+            </div>
+            <div class="op1">
+                <a href="g10.jpg">
+                    <img src="g10.jpg">
+                </a>
+                <div class="text">
+                    Brand:BMW<br>Model:2020 lorem ipsum dolor sit<br>price:2000.000$  <br><br>
+                    <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+            </div></div>
+        </div>
+        <div id="Jeep">
+            <div class="op">
+                <div class="op1">
+                <a href="g12.jpg">
+                    <img src="g12.jpg">
+                </a>
+                <div class="text">
+                    Brand:Jeep<br>Model:2021 lorem ipsum dolor sit<br>price:4000.000$<br><br>
+                    <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+            </div>
+            <div class="op1">
+                <a href="g13.jpg">
+                    <img src="g13.jpg">
+                </a>
+                <div class="text">
+                    Brand:Jeep<br>Model:2021 lorem ipsum dolor sit<br>price:5000.000$<br><br>
+                    <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+            </div>
+            <div class="op1">
+                <a href="g14.jpg">
+                    <img src="g14.jpg">
+                </a>
+                <div class="text">
+                    Brand:Jeep<br>Model:2020 lorem ipsum dolor sit<br>price:2000.000$<br><br>
+                    <span> <a href="page4.html">BUY NOW</a></span> 
+                </div>
+            </div>
+        </div></div>
+        
+    </div>
+</body>
+
+</html>
