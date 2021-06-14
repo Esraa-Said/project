@@ -9,43 +9,66 @@
     <style>
         .back {
             color: rgb(0, 0, 0);
-            width: 40%;
+      width: 40%;
             padding-left: 15px;
-            margin-top: 100px;
-
+            margin-top: 50px;
+            border-radius: 20px;
+            border: 3px solid rgb(181, 207, 236);
             margin-left: 50px;
+            margin-right: auto;
+            background-color: rgb(255, 255, 255);
         }
 
         .back p {
-            font-weight: 600;
+          
             font-size: x-large;
             line-height: 40px;
         }
 
         .con{
-            color: black;  padding-left: 15px;
+            color: rgb(0, 0, 0);
+            
+           
             margin-top: 60px;
-            font-weight: 600; width: 40%;
+           display: flex;
+           justify-content: space-between;
             font-size: x-large;
             line-height: 40px;
             margin-left: 50px;
+          margin-bottom: 40px;
         }
+        .div1{
+            width: 45%; padding-left: 15px;  border-radius: 20px;
+            border: 3px solid rgb(181, 207, 236); background-color: rgb(255, 255, 255);
+        }
+        .div2{
+            width: 45%; padding-left: 15px;  border-radius: 20px;
+            border: 3px solid rgb(181, 207, 236); background-color: rgb(255, 255, 255);
+        }
+      
 h1{
     color: #000;
 }
-      @media screen and (max-width:800px) {
+    @media screen and (max-width:800px) {
         .back{
             margin-right: auto;
             margin-left: auto;
             width: 70%;
         }
         .con{
-            margin-right: auto;
-            margin-left: auto;
-            width: 70%;
+           
+          
+            flex-direction: column;
+        }
+        .div1{
+            width: 80%; 
+            margin-bottom: 40px;
+        }
+        .div2{
+            width: 80%; 
         }
 
-    }   
+    }
        
     </style>
 </head>
@@ -83,6 +106,7 @@ h1{
         </p>
     </div>
     <div class="con">
+        <div class="div1">
      <h2>
          About us
      </h2>
@@ -90,7 +114,8 @@ h1{
          Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
           Totam ut modi aspernatur dolores, enim fugiat eius nulla odit magnam <br>numquam, aliquam doloribus inventore magni?
            Quae harum officia modi .
-     </p>
+     </p></div>
+     <div class="div2">
      <h2>Contact Info</h2>
      <p>
 Tel: 56566788<br>
@@ -98,7 +123,7 @@ Address:Shoubra Cairo Egypt<br>
 Facebook: Esraa Said <br>
 Emil:info@mail.com <br>
      </p>
-    </div>
+    </div></div>
 </body>
 
 </html>
