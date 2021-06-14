@@ -6,8 +6,8 @@ body{
     background-image: url(bk.jpg);
     background-repeat:no-repeat ;
  background-size: cover;
-
  background-attachment: fixed;
+
 
 
 }
@@ -45,7 +45,7 @@ nav ul ul {
 }
 
 nav a:hover{
-   background-color: #e05c5c;
+   background-color: #208083;
 }
 
 nav ul li:hover > ul {
@@ -63,11 +63,6 @@ a:hover{
    color: rgb(255, 255, 255);
 }
 
-nav ul ul ul li {
-   position: relative;
-   top: -60px;
-   left: 170px;
-}
 
 
 
@@ -77,7 +72,7 @@ nav ul ul ul li {
    flex-direction: column;
    text-align: center;
    padding: 0px;
-  justify-content: space-between;
+
     }
     nav ul ul {
      
@@ -86,9 +81,9 @@ nav ul ul ul li {
     body{
         background-image: url(bk1.jpg);
         background-repeat:no-repeat ;
-     background-size: cover;
+    background-size: cover;
+   background-attachment: fixed;
     
-     background-attachment: fixed;
     }
   
 }
