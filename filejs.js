@@ -25,14 +25,14 @@ function checkForm() {
 function allLetter_fname(fname) {
     var letters = /^[A-Za-z]+$/;
     if (fname.value == null || fname.value == "") {
-        ("error! First Name can't be blank!");
+         alert("error! First Name can't be blank!");
         fname.focus();
         return false;
     }
     if (fname.value.match(letters)) {
         return true;
     } else {
-       alert('your name must have alphabet characters only');
+       alert("your name must have alphabet characters only");
         fname.focus();
         return false;
     }
